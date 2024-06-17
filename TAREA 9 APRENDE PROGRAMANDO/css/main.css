@@ -1,0 +1,33 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: blue;
+} 
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .nav-link:hover {
+    color: rgb(8, 8, 8);
+}
+
+.card {
+    transition: transform 200ms ease;
+}
+
+.card:hover {
+    transform: scale(1.09);
+}
+
+footer .text-uppercase {
+    font-weight: bold;
+}
+.card-img-top {
+    height: auto; 
+}
